@@ -1,8 +1,10 @@
+background-color: coral;
+
 body {
   padding: 0;
   margin: 0;
 }
-.container {
+.container9 {
   width: 80%;
   overflow: hidden;
   margin: auto;
@@ -166,31 +168,6 @@ body {
 .gry > div {
   color: black;
 }
-.container1 {
-  display: grid;
-  grid-template-areas: "a a a b b";
-}
-
-.ab {
-  grid-area: a;
-  text-align: center;
-}
-
-.bb {
-  grid-area: b;
-  text-align: center;
-}
-
-.container2 {
-  display: grid;
-  grid-template-areas:
-    "c d e i j"
-    "f g h i j";
-
-  grid-row-gap: 15px;
-  grid-column-gap: 15px;
-  justify-content: space-evenly;
-}
 
 .card1 {
   grid-area: c;
@@ -241,6 +218,11 @@ body {
 }
 .i1 {
   width: 8em;
+  height: 11em;
+}
+
+.i2 {
+  width: 10em;
   height: 11em;
 }
 
@@ -314,4 +296,8 @@ body {
 
 ul > li > a:hover {
   opacity: 0.5;
+}
+.myfoot {
+  justify-content: center;
+  align-content: center;
 }
