@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="./style/index.css">
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/5.2.0/css/font-awesome.min.css">
@@ -22,7 +22,7 @@
             bookreads
         </div>
         <div class="search-box">
-            <input type="text" placeholder="Search books" id="search-bar">
+            <input type="text" placeholder="Search books" id="search-bar" name="search-bar">
             <a href="#myModal" class="trigger-btn" data-toggle="modal"><button id="login-btn">Log in</button></a>
             
             <!-- Modal HTML -->
@@ -36,8 +36,8 @@
                             </div>
                             <div class="modal-body">				
                                 <div class="form-group">
-                                    <label>Username</label>
-                                    <input type="text" class="form-control" required="required">
+                                    <label>Username</label><br>
+                                    <input type="text"  required="required" id="username-login" name="username-login">
                                 </div>
                                 <div class="form-group">
                                     <div class="clearfix">
@@ -45,7 +45,7 @@
                                         <a href="#" class="float-right text-muted"><small>Forgot?</small></a>
                                     </div>
                                     
-                                    <input type="password" class="form-control" required="required">
+                                    <input type="password" required="required" id="password-login" name="password-login">
                                 </div>
                             </div>
                             <div class="modal-footer justify-content-between">
@@ -65,8 +65,18 @@
         <div class="item2"></div>
         <div class="item3"></div>
         <div class="item4">
-            <p>New here?Create a new account</p>
+            <h3>Create a new account</h3>
+            <form action="" id="signup-form">
+                <input type="text" placeholder="Name" id="signup-name" name="signup-name"><br><br>
+                <input type="email" placeholder="Email Address" id="signup-email" name="signup-email"><br><br>
+                <input type="password" placeholder="Password" id="signup-password" name="signup-password"><br><br>
+                <button id="signup-submit-btn">Submit</button>
+                <p>By submitting form you agree to follow all cmmunity rules</p>
+            </form>
         </div>
+    </section>
+    <section class="blank-white">
+
     </section>
 </body>
 </html>
