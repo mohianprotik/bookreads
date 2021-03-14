@@ -286,6 +286,10 @@ body {
   margin-bottom: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .c1 {
   background-color: rgba(56, 52, 44, 0.7);
 }
@@ -296,8 +300,4 @@ body {
 
 ul > li > a:hover {
   opacity: 0.5;
-}
-.myfoot {
-  justify-content: center;
-  align-content: center;
 }
