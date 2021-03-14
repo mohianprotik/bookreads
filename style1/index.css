@@ -309,4 +309,9 @@ body {
 }
 .c2 {
   background-color: rgba(234, 182, 118, 0.8);
+  color: black;
+}
+
+ul > li > a:hover {
+  opacity: 0.5;
 }
