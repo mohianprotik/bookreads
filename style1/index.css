@@ -301,3 +301,13 @@ body {
 ul > li > a:hover {
   opacity: 0.5;
 }
+
+.amazon {
+  width: 4em;
+  height: 4em;
+}
+
+.rokomari {
+  width: 10em;
+  height: 4em;
+}
