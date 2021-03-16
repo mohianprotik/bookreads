@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 .container9 {
-  width: 80%;
+  width: 90%;
   overflow: hidden;
   margin: auto;
 }
@@ -211,11 +211,74 @@ body {
 .i1 {
   width: 8em;
   height: 11em;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: 1px solid black;
 }
 
 .i2 {
   width: 8em;
   height: 11em;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: 1px solid black;
+}
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.best-thirller .middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text {
+  color: #955E2B;
+  background-color: white;
+  margin: 2px;
+}
+.best-books-2021:hover .i2 {
+  opacity: 0.5;
+}
+.best-books-2021:hover .middle{
+  opacity: 1;
+}
+.best-books-2021:hover .middle{
+  background-color: white;
+}
+.best-thirller:hover .i2 {
+  opacity: 0.5;
+}
+.best-thirller:hover .middle{
+  opacity: 1;
+}
+.best-thirller:hover .middle{
+  background-color: white;
+}
+.best-thirller .text {
+  margin: 2px;
+  text-align: center;
+}
+#category-box a {
+  text-decoration: none;
+  color: black;
+}
+#category-box a:hover {
+  color: black;
+  font-weight: 500;
 }
 
 .footer-basic {
@@ -310,6 +373,19 @@ ul > li > a:hover {
   background-color: white;
   width: 100%;
   justify-content: center;
+}
+#add-books {
+  background-color:  rgba(234, 182, 118, 0.9);
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  width: 150px;
+}
+#add-books:hover {
+  background-color: #955E2B;
+  color: white;
+  font-weight: 400;
 }
 @media (max-width: 1040px) {
   #category-content{
