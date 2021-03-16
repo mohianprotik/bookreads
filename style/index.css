@@ -23,6 +23,10 @@ nav {
     overflow: hidden;
     margin: auto;
 }
+nav a {
+    text-decoration: none;
+    color: black;
+}
 .container {
     width: 80%;
     overflow: hidden;
