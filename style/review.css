@@ -12,6 +12,10 @@ body {
     font-family: 'Comfortaa';
     font-size: 28px;
 }
+#nav-bar a:hover {
+    color: black;
+    text-decoration: none;
+}
 #logo {
     height: 30px;
     width: 40px;
@@ -59,7 +63,7 @@ body {
 .modal-login .modal-header {
 	position: relative;
 	justify-content: center;
-	background: rgba(255,222,173, 0.7);
+	background-color: rgba(255,222,173, 0.7);
 }
 .modal-login .modal-body {
 	padding: 30px;
@@ -199,7 +203,15 @@ body{
 }
 #comment-submit {
     margin-top: .5em;
-    margin-left: 270px;
+    margin-left: 260px;
+    width: 70px;
+    height: 25px;
+    border: 1px solid black ;
+    border-radius: 3px;
+}
+#comment-submit:hover {
+    background-color: #955E2B;
+    color: white;
 }
 /* #like {
     color: blue;
@@ -227,6 +239,72 @@ body{
 .comment-content {
     margin-top: 1em;
 }
+#child-comment-submit {
+    background-color: rgba(255,222,173, 0.7);
+    margin-left: 25em;
+    margin-top: .5em;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 70px;
+    height: 25px;
+}
+#child-comment-submit:hover {
+    background-color: #955E2B;
+    color: white;
+}
+.add-review-paralex {
+    background-image: url(../assets/review_write.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+#review-add-button {
+    margin-top: 3em;
+    margin-left: 35em;
+    width: 150px;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 17px;
+}
+#review-add-button:hover {
+    background-color:rgba(255,222,173, 0.7);
+    color: black;
+    font-weight: 800;
+}
+#review-input {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 700px;
+    height: 150px;
+    border: 2px solid #955E2B;
+    border-radius: 5px;
+}
+#review-input::placeholder{
+    font-size: large;
+    font-weight: 400;
+}
+#review-upload {
+    margin-top: 1em;
+    margin-left: 47.2em;
+    width: 80px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#review-upload:hover {
+    background-color: #955E2B;
+    color: white;
+    font-weight: 800px;
+}
+
 @media (max-width: 995px){
     .review-image {
         margin-right: 20px;
@@ -313,3 +391,9 @@ body{
     width: 380px;
 }
 }
+
+.f1 {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1.5em;
+  }

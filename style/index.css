@@ -279,6 +279,15 @@ nav a {
     height: 35px;
     background-color:transparent;
 }
+#child-comment {
+    margin-top: 1.5em;
+    margin-left: 5em;
+    width: 350px;
+    height: 60px;
+}
+#child-comment ::placeholder {
+    text-align: center;
+}
 @media (max-width:1100px) {
     .item-image-contents{
         margin-left: -2em;
